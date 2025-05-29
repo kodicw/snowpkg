@@ -31,7 +31,7 @@
       settings = {
         provider = "ollama";
         ollama = {
-          model = "qwen3:8b";
+          model = "qwen3:14b";
         };
       };
     };
