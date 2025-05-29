@@ -28,8 +28,8 @@
     };
     avante = {
       enable = true;
+      provider = "ollama";
       settings = {
-        provider = "ollama";
         ollama = {
           model = "gemma3:latest";
         };
