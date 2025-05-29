@@ -26,6 +26,15 @@
         comment = { };
       };
     };
+    avante = {
+      enable = true;
+      settings = {
+        provider = "ollama";
+        ollama = {
+          model = "gemma3:latest";
+        };
+      };
+    };
     bufferline.enable = true;
     luasnip.enable = true;
     treesitter.enable = true;
