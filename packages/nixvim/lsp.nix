@@ -22,7 +22,7 @@
       enable = true;
     };
 
-    ruff_lsp = {
+    ruff = {
       enable = true;
     };
 
