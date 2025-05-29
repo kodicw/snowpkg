@@ -31,7 +31,7 @@
       settings = {
         provider = "ollama";
         ollama = {
-          model = "gemma3:latest";
+          model = "deepseek-r1:8b";
         };
       };
     };
@@ -55,8 +55,12 @@
     };
 
     lualine.enable = true;
-    notify.enable = true;
-    notify.level = "error";
+    notify = {
+      enable = true;
+      settings = {
+        level = "error";
+      };
+    };
     lsp-format.enable = true;
     cmp = {
       autoEnableSources = true;
@@ -73,7 +77,6 @@
           { name = "calc"; }
           { name = "dictionary"; }
           { name = "emoji"; }
-          { name = "copilot"; }
           { name = "snippy"; }
           { name = "spell"; }
         ];
