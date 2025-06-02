@@ -21,6 +21,8 @@
     toggleterm.enable = true;
     neogit.enable = true;
     dap.enable = true;
+    dap-python.enable = true;
+    dap-ui.enable = true;
     multicursors.enable = true;
     endwise.enable = true;
     mini = {
