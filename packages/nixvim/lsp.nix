@@ -30,7 +30,7 @@
       enable = true;
     };
 
-    none_ls = {
+    none-ls = {
       enable = true;
     };
 
