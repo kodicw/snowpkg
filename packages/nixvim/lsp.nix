@@ -30,6 +30,10 @@
       enable = true;
     };
 
+    none_ls = {
+      enable = true;
+    };
+
     nixd = {
       enable = true;
     };
