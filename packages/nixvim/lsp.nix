@@ -30,10 +30,6 @@
       enable = true;
     };
 
-    none-ls = {
-      enable = true;
-    };
-
     nixd = {
       enable = true;
     };
