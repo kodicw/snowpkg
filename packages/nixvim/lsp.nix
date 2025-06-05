@@ -18,7 +18,7 @@
       enable = true;
     };
 
-    pylyzer = {
+    pyright = {
       enable = true;
     };
 
