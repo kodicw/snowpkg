@@ -41,6 +41,10 @@
       enable = true;
     };
 
+    zls = {
+      enable = true;
+    };
+
     bashls.enable = true;
   };
 }
