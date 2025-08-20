@@ -23,8 +23,7 @@
       };
     in
 
-    lib.mkFlake {
-    };
+    lib.mkFlake { };
 }
 
 
