@@ -33,10 +33,10 @@ in
           enable = true;
           enableNushellIntegration = true;
         };
-        atuin = {
-          enable = true;
-          enableNushellIntegration = true;
-        };
+        # atuin = {
+        #   enable = true;
+        #   enableNushellIntegration = true;
+        # };
         starship = {
           enable = true;
           settings = {
